@@ -13,6 +13,9 @@
 */
 
 //your code here
+function uselessFunction(){
+	return null;
+}
 
 //end your code
 
@@ -30,7 +33,21 @@ var barType = typeof bar;
 */
 
 //your code here
-
+bar = function(float){
+	var begSum = 0;
+	var endSum = 0;
+	for (var i = 0; i < float.length; i++){
+		begSum = begSum + float[i];
+		float[i] = float[i] * 2;
+		endSum = endSum + float[i];
+	}
+	if (endSum / begSum == 2){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
 //end your code
 
 /**
@@ -56,7 +73,7 @@ function GitLog(hash, date, message) {
 * There will always be a space between the hash and date and between the date
 * and the first " of the commit message.
 *
-* You will covert these into GitLog objects with the following properties:
+* You will convert these into GitLog objects with the following properties:
 *
 *
 * @param {array.<string>} logArray - an array of Git commit messages of the
@@ -66,5 +83,12 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit(logArray){
+	tmpString = String(logArray);
+	var strArray = tmpString.split(" ");
+	var gitArray = [];
+	gitArray.push(new GitLog(strArray[0], strArray[1], strArray[2]));
+	return gitArray;
+}
 
 //end your code
