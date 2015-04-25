@@ -132,7 +132,7 @@ test("MessageLog instance tests", function(assert){
 
 test("Student instance",function(assert){
 	assert.expect( 1 );
-	assert.equal(myLog.totalReceived(), 3,'myLog received 3 messages.');
+	assert.equal(myLog.totalReceived(),3,'myLog received 3 messages.');
 });
 /*
 END object tests

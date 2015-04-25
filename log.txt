@@ -1,3 +1,18 @@
 Start: Wed, 22 Apr 2015 11:50:07 -0700
 End: Wed, 22 Apr 2015 14:49:04 -0700
-Tasks: Worked on variables.js and functions.js up to the "parseGit" function.  Still suck on that.
+Tasks: Worked on variables.js and functions.js up to the "parseGit" function.  Still stuck on that.
+
+
+Start: Thur, 23 Apr 2015 13:57:16 -0700
+End: Thur, 23 Apr 2015 16:00:00 -0700
+Tasks: Did a little work on objects.js and tried to finish the "parseGit" function but wasn't able to finish.
+
+
+Start: Fri, 24 Apr 2015 9:57:16 -0700
+End: Fri, 24 Apr 2015 11:45:29 -0700
+Tasks: Worked more on functions.js but still haven't finished.
+
+
+Start: Fri, 24 Apr 2015 13:35:16 -0700
+End: Fri, 24 Apr 2015 19:18:15 -0700
+Tasks: Finished objects.js, but couldn't get the "student instance" to work on qunit.  I'm pretty sure my code is correct though.
